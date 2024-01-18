@@ -4,5 +4,5 @@ from apps.dashboard.models import Gallery
 class GallerySerializer(ModelSerializer):
     class Meta:
         model = Gallery
-        fields = ['id','name','description']
+        fields = ['id','Judul','Gambar','Deskripsi']
     

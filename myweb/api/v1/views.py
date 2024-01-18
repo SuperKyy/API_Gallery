@@ -14,6 +14,6 @@ from rest_framework.viewsets import ModelViewSet
 from apps.dashboard.models import Gallery
 from api.v1.serializers import GallerySerializer
 
-class ItemViewset(ModelViewSet):
+class GalleryViewset(ModelViewSet):
     queryset = Gallery.objects.all()
     serializer_class = GallerySerializer
