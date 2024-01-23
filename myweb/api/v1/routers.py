@@ -3,4 +3,4 @@ from api.v1.views import GalleryViewset
 
 router: DefaultRouter = DefaultRouter()
 
-router.register(r'Gallery', GalleryViewset)
+router.register(r'gallery', GalleryViewset)
